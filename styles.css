@@ -1,4 +1,4 @@
-/* Resetting default margin and padding */
+/*default margin and padding */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   color: #ffffff;
 }
 
-/* Header styles */
+/***************************************************** Header styles *************************************************************/
 .header {
   width: 100%;
   height: 86px;
@@ -185,18 +185,20 @@ body {
   gap: 24px;
 }
 
-.headline {
+.section1 .headline {
   font-weight: 600;
   font-size: 52px;
   line-height: 62.93px;
   letter-spacing: -2%;
+  color: #ffffff;
 }
 
-.subheadline {
+.section1 .subheadline {
   font-family: "Text xl/Semibold", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
+  color: #ffffff;
 }
 
 .buttons {
@@ -428,4 +430,643 @@ body {
 
 .section3-button:hover {
   background-color: #e6a519; /* Slightly darker shade on hover */
+}
+/************************************************************ section4 *********************************************************/
+/* Section 4 */
+.section4 {
+  width: auto; /* Hug width */
+  padding: 80px 0; /* Padding as specified */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px; /* Gap as specified */
+}
+
+.section4-headline {
+  width: 936px; /* Width as specified */
+  height: 51px; /* Height as specified */
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50.83px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #101828;
+}
+
+.section4-subheadline {
+  width: 936px; /* Width as specified */
+  height: 48px; /* Height as specified */
+  font-family: "Text md/Regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #475467;
+}
+
+.section4-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px; /* Gap as specified */
+}
+
+.section4-card {
+  width: 358.67px; /* Fill width as specified */
+  height: 500px; /* Hug height */
+  background-color: #ffffff; /* Background color */
+  box-shadow: 0px 4px 30px 0px #0000000d; /* Shadow as specified */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Gap for spacing within the card */
+}
+
+.section4-image {
+  width: 358.67px; /* Width as specified */
+  height: 240px; /* Height as specified */
+  object-fit: cover;
+}
+
+.section4-card-headline {
+  width: 318.67px; /* Width as specified */
+  height: 30px; /* Height as specified */
+  font-family: "Text xl/Semibold", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+}
+
+.section4-card-subheadline {
+  width: 318.67px; /* Width as specified */
+  height: 72px; /* Height as specified */
+  font-family: "Text md/Regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+}
+
+.section4-card-button {
+  display: flex; /* Make button content flex */
+  align-items: start; /* Center items vertically */
+  justify-content: space-between; /* Space items out */
+  width: 113px; /* Width as specified */
+  height: 24px; /* Height as specified */
+  font-family: "Text md/Semibold", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3cab90; /* Text color */
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.arrow-right {
+  color: #3cab90; /* Arrow color */
+}
+
+/**************************************************************** section 5 ***************************************************/
+.section5 {
+  height: 505px; /* Height as specified */
+  background-image: url("images/background2.png"); /* Background image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section5-content {
+  width: 858px; /* Width as specified */
+  max-width: 100%;
+  height: auto;
+  padding: 44px;
+  border-radius: 12px; /* Radius as specified */
+  background-color: rgba(0, 0, 0, 0.57); /* Color as specified */
+  text-align: center;
+  color: #ffffff; /* Text color */
+}
+
+.section5-headline {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50.83px;
+  letter-spacing: -2%;
+  width: 770px; /* Width as specified */
+  height: 51px; /* Height as specified */
+  margin: 0 auto 20px; /* Adjust margin as needed */
+}
+
+.section5-subheadline {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  width: 770px; /* Width as specified */
+  height: 140px; /* Height as specified */
+  margin: 0 auto; /* Center the text */
+}
+/***************************************************** section6 ******************************************************************/
+
+.section6 {
+  height: 1100px; /* Height as specified */
+  background-color: #ffbb1c0d; /* Background color with opacity */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 150px; /* Padding as specified */
+  gap: 32px; /* Gap between columns */
+}
+
+.section6-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1440px; /* Maximum width of the content */
+}
+
+.section6-column {
+  width: calc((100% - 64px) / 3); /* Adjusted width for each column */
+}
+
+.section6-card {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.13);
+  margin-top: 10px;
+}
+
+.circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  border: 21px solid #3cab90;
+}
+
+.section6-card-headline {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50.83px;
+  letter-spacing: -2%;
+  color: #101828;
+  margin-top: 20px;
+}
+
+.section6-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #475467;
+  margin-top: 16px;
+}
+
+.circle .section6-card-headline {
+  font-size: 42px;
+}
+
+.section6-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.13);
+  margin-top: 10px;
+}
+
+.section6-card-image {
+  width: 310.67px;
+  height: 106px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section6-card-button {
+  width: 156px;
+  height: 24px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #3cab90;
+  border: none;
+  border-radius: 12px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.section6-card-button:hover {
+  opacity: 0.8; /* Adjusted opacity on hover */
+}
+/****************************************************** section7 *****************************************************************/
+
+.section7 {
+  height: auto; /* Auto height to hug content */
+  padding: 80px 150px; /* Padding as needed */
+  background-color: #fff; /* Background color if needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: 50px; /* Gap between elements */
+}
+
+.section7-headline {
+  width: 1140px;
+  height: 51px;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50.83px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #101828;
+}
+
+.section7-subheadline {
+  width: 1140px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #475467;
+}
+
+.section7-columns {
+  display: flex;
+  width: 1140px; /* Fixed width */
+  height: auto; /* Auto height to hug content */
+  gap: 32px; /* Gap between columns */
+}
+
+.section7-card {
+  width: calc((100% - 64px) / 3); /* Adjust width for each column */
+  height: 420px; /* Fixed height */
+  background-color: #3cab900d;
+  border-radius: 12px;
+  padding: 32px;
+  gap: 20px; /* Gap between elements inside the card */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section7-card-image {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.section7-card-title {
+  width: 147px; /* Width as specified */
+  height: 30px; /* Height as specified */
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+}
+
+.section7-card-text {
+  width: 100%;
+  height: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+}
+/*************************************************** section8 *********************************************************************/
+.section8 {
+  display: flex;
+  height: auto; /* Auto height to hug content */
+  padding: 80px 150px; /* Padding as needed */
+  gap: 32px; /* Gap between left and right columns */
+}
+
+.section8-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px; /* Fixed width */
+  height: auto; /* Auto height to hug content */
+  gap: 28px; /* Gap between elements */
+}
+
+.section8-icon {
+  width: 58.33px;
+  height: 48px;
+  color: #3cab90; /* Icon color */
+}
+
+.section8-title {
+  width: 400px;
+  height: 128px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #1c1c1c;
+}
+
+.section8-description {
+  width: 400px;
+  height: 64px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #1c1c1c;
+}
+
+.section8-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 708px; /* Fill remaining space */
+  height: auto; /* Auto height to hug content */
+  background-color: #3cab900f;
+  border-radius: 24px;
+  padding: 40px;
+  gap: 87px; /* Gap between elements */
+}
+
+.section8-testimonial-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section8-testimonial-title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.16px;
+  color: #3cab90;
+}
+
+.section8-dots {
+  display: flex;
+  gap: 8px; /* Gap between dots */
+}
+
+.section8-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+
+.section8-dot:hover {
+  background-color: #6b6b6b;
+}
+
+.section8-testimonial-content {
+  width: 516px;
+  height: 144px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #101828;
+}
+
+.section8-testimonial-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Fill remaining space */
+  height: auto; /* Auto height to hug content */
+}
+
+.section8-profile {
+  display: flex;
+  align-items: center;
+  width: 302px; /* Fixed width */
+  height: 60px; /* Fixed height */
+}
+
+.section8-profile-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.section8-profile-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px; /* Gap between image and text */
+}
+
+.section8-profile-name {
+  width: 125px;
+  height: 19px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #1c1c1c;
+}
+
+.section8-profile-role {
+  width: 234px;
+  height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #1c1c1c;
+}
+
+.section8-buttons {
+  display: flex;
+  gap: 16px; /* Gap between buttons */
+}
+
+.section8-button {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #1c1c1c;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section8-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.section8-button-left img {
+  transform: rotate(180deg);
+}
+/*************************************************************** footer ***********************************************************/
+.footer {
+  background-color: #283646;
+  padding: 54px 0;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.footer-logo {
+  width: 185px;
+  height: 64px;
+}
+
+.footer-nav-and-subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-nav a {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-description {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+}
+
+.footer-subscribe-input {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.footer-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: #ffffff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  padding: 10px 20px;
+  border: 1px solid #b3bdc7;
+  background: #ffffff17;
+  border-radius: 38px 0 0 38px;
+}
+
+.footer-button {
+  width: 147px;
+  height: 46px;
+  padding: 12px 34px;
+  border-radius: 0 38px 38px 0;
+  background-color: #ffbb1c;
+  color: #ffffff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  border: 1px solid #b3bdc7;
+
+  cursor: pointer;
+}
+
+.footer-right {
+  width: 408px;
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1px;
+  margin-top: 50px;
+}
+
+.footer-line {
+  width: 100%;
+  max-width: 1140px;
+  height: 2px;
+  border: none;
+  background-color: #71777d;
+  margin: 0 auto;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  opacity: 1; /* Changed opacity to 1 */
+}
+
+.footer-terms {
+  display: flex;
+  gap: 10px;
+  width: 451px;
+}
+
+.footer-terms a {
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.257px;
+  color: #92989f;
+  text-decoration: none;
+}
+
+.footer-copy {
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.257px;
+  color: #92989f;
+  text-align: right;
 }
