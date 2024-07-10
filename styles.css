@@ -16,7 +16,7 @@ body {
   width: 100%;
   height: 86px;
   justify-content: space-between;
-  padding: 16px 20px; /* Adjusted padding for smaller screens */
+  padding: 16px 20px;
   background-color: #0b9586;
   display: flex;
   align-items: center;
@@ -33,19 +33,19 @@ body {
 .logo {
   width: 157px;
   height: 54px;
-  max-width: 100%; /* Ensure logo is responsive */
+  max-width: 100%;
 }
 
 .navigation {
   display: flex;
-  align-items: center; /* Align navigation items vertically centered */
+  align-items: center;
 }
 
 .navigation a {
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
-  padding: 8px 20px; /* Adjusted padding for smaller screens */
+  padding: 8px 20px;
   margin-right: 10px;
   transition: color 0.3s ease, background-color 0.3s ease;
 }
@@ -98,16 +98,15 @@ body {
 /************************************************************ section1 ***********************************************************/
 .section1 {
   position: relative;
-  height: 650px; /* Adjusted height as per specification */
+  height: 650px;
 }
 
 .background-image {
   position: absolute;
-
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden; /* Ensure the image doesn't overflow */
+  overflow: hidden;
 }
 
 .background-image img {
@@ -119,7 +118,7 @@ body {
   background: linear-gradient(
     267.36deg,
     rgba(0, 0, 0, 0) 70%,
-    rgba(0, 0, 0, 0) 18%
+    rgba(0, 0, 0, 0) 100%
   );
 }
 
@@ -146,12 +145,12 @@ body {
 }
 
 .slider-item:nth-child(2) {
-  margin-left: 15px; /* Added margin-left for the second slider item */
+  margin-left: 15px;
 }
 
 .slider-line {
-  width: 220px; /* Set width as specified */
-  height: 5px; /* Set height as specified */
+  width: 220px;
+  height: 5px;
   position: relative;
 }
 
@@ -162,8 +161,8 @@ body {
   left: 0;
   width: 50%;
   height: 100%;
-  background-color: #ffffff; /* White color */
-  border-left: 3.75px solid #ffffff; /* White color border */
+  background-color: #ffffff;
+  border-left: 3.75px solid #ffffff;
 }
 
 .slider-line::after {
@@ -173,13 +172,13 @@ body {
   right: 0;
   width: 50%;
   height: 100%;
-  background-color: #575757; /* #575757 color */
-  border-right: 3.75px solid #575757; /* #575757 color border */
+  background-color: #575757;
+  border-right: 3.75px solid #575757;
 }
 
 .section1-content {
-  width: 729px; /* Fixed width as specified */
-  height: 305px; /* Hug height as specified */
+  width: 729px;
+  height: 305px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -208,7 +207,7 @@ body {
 
 .button,
 .accent-button {
-  height: 41px; /* Adjusted height as per specification */
+  height: 41px;
   border-radius: 109px;
   padding: 12px 34px;
   font-weight: 400;
@@ -220,38 +219,36 @@ body {
 }
 
 .button {
-  background-color: #3cab90; /* Added background color for the first button */
+  background-color: #3cab90;
   color: #ffffff;
 }
 
 .accent-button {
-  width: 208px; /* Adjusted width as per specification */
+  width: 208px;
   background-color: #ffbb1c;
   color: #2a3334;
 }
 /************************************************************ section2 ***********************************************************/
 /* Section 2 */
 .section2 {
-  height: 712px; /* Adjusted height as per specification */
+  height: 712px;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px; /* Increased gap between columns */
+  gap: 40px;
   padding: 20px 0;
-  overflow: hidden; /* Prevent content overflow */
+  overflow: hidden;
 }
 
-/* Section 2 Columns */
 .section2-column {
   display: flex;
   flex-direction: column;
 }
 
-/* Column 1 */
 .section2-column:first-child {
-  width: 594px; /* Width as specified */
-  height: 476px; /* Height as specified */
+  width: 594px;
+  height: 476px;
   gap: 50px;
 }
 
@@ -261,8 +258,8 @@ body {
   line-height: 50.83px;
   letter-spacing: -2%;
   color: #101828;
-  width: 594px; /* Width as specified */
-  height: 102px; /* Height as specified */
+  width: 594px;
+  height: 102px;
 }
 
 .subheadline {
@@ -271,8 +268,8 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #475467;
-  width: 594px; /* Width as specified */
-  height: 144px; /* Height as specified */
+  width: 594px;
+  height: 144px;
 }
 
 .steps {
@@ -285,12 +282,12 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  height: 30px; /* Height as specified */
+  height: 30px;
 }
 
 .step-number {
-  width: 32px; /* Width as specified */
-  height: 30px; /* Height as specified */
+  width: 32px;
+  height: 30px;
   font-family: "Akazan", sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -305,13 +302,12 @@ body {
   font-size: 20px;
   line-height: 30px;
   color: #101828;
-  width: 498px; /* Width as specified */
+  width: 498px;
 }
 
-/* Column 2 */
 .section2-column:last-child {
   width: 469px;
-  height: 476px; /* Match the height of the first column */
+  height: 476px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -320,8 +316,8 @@ body {
 
 .image-container {
   width: 100%;
-  height: 600px; /* Increased height of the image container */
-  border-radius: 12px; /* Radius as specified */
+  height: 600px;
+  border-radius: 12px;
   overflow: hidden;
 }
 
@@ -333,46 +329,41 @@ body {
 
 .overlay {
   position: absolute;
-  bottom: 20px; /* Position at the bottom */
-  left: -10px; /* Position at the left */
-  width: 266px; /* Fixed width as specified */
-  height: 208px; /* Height as specified */
-  background-color: rgba(
-    255,
-    187,
-    28,
-    0.1
-  ); /* Adjusted background color with opacity */
+  bottom: 20px;
+  left: -10px;
+  width: 266px;
+  height: 208px;
+  background-color: rgba(255, 187, 28, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0;
   transition: opacity 0.3s ease;
-  border-radius: 12px; /* Radius as specified */
+  border-radius: 12px;
   padding: 24px 30px;
   gap: 28px;
-  background-color: #ffbb1c; /* Color as specified */
+  background-color: #ffbb1c;
 }
 
 .image-container .overlay {
-  opacity: 1; /* Show overlay on hover */
+  opacity: 1;
 }
 
 .solar-image {
-  width: 90px; /* Width as specified */
-  height: 90px; /* Height as specified */
+  width: 90px;
+  height: 90px;
 }
 
 .text {
-  width: 206px; /* Width as specified */
-  height: 42px; /* Height as specified */
-  font-size: 16px; /* Adjusted font size */
+  width: 206px;
+  height: 42px;
+  font-size: 16px;
   line-height: 20.95px;
   letter-spacing: 0.94px;
-  color: #2a3334; /* Color as specified */
+  color: #2a3334;
 }
 /* **************************************************section 3 ******************************************************************/
-/* Section 3 */
+
 .section3 {
   height: 505px;
   background-image: url("images/background3.png");
@@ -395,8 +386,8 @@ body {
 }
 
 .section3-headline {
-  width: 100%; /* Full width of the content container */
-  height: 51px; /* Fixed height as specified */
+  width: 100%;
+  height: 51px;
   font-weight: 600;
   font-size: 42px;
   line-height: 50.83px;
@@ -405,8 +396,8 @@ body {
 }
 
 .section3-subheadline {
-  width: 100%; /* Full width of the content container */
-  height: 56px; /* Fixed height as specified */
+  width: 100%;
+  height: 56px;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
@@ -414,37 +405,37 @@ body {
 }
 
 .section3-button {
-  width: 173px; /* Width to hug content */
-  height: 41px; /* Height to hug content */
-  padding: 12px 34px; /* Padding as specified */
-  border-radius: 109px; /* Radius as specified */
-  background-color: #ffbb1c; /* Button background color */
-  color: #2a3334; /* Button text color */
-  font-size: 16px; /* Adjusted font size */
+  width: 173px;
+  height: 41px;
+  padding: 12px 34px;
+  border-radius: 109px;
+  background-color: #ffbb1c;
+  color: #2a3334;
+  font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   border: none;
-  gap: 10px; /* Gap as specified */
+  gap: 10px;
   transition: background-color 0.3s ease;
 }
 
 .section3-button:hover {
-  background-color: #e6a519; /* Slightly darker shade on hover */
+  background-color: #e6a519;
 }
 /************************************************************ section4 *********************************************************/
 /* Section 4 */
 .section4 {
-  width: auto; /* Hug width */
-  padding: 80px 0; /* Padding as specified */
+  width: auto;
+  padding: 80px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px; /* Gap as specified */
+  gap: 40px;
 }
 
 .section4-headline {
-  width: 936px; /* Width as specified */
-  height: 51px; /* Height as specified */
+  width: 936px;
+  height: 51px;
   font-weight: 600;
   font-size: 42px;
   line-height: 50.83px;
@@ -454,8 +445,8 @@ body {
 }
 
 .section4-subheadline {
-  width: 936px; /* Width as specified */
-  height: 48px; /* Height as specified */
+  width: 936px;
+  height: 48px;
   font-family: "Text md/Regular", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -467,29 +458,29 @@ body {
 .section4-columns {
   display: flex;
   justify-content: space-between;
-  gap: 32px; /* Gap as specified */
+  gap: 32px;
 }
 
 .section4-card {
-  width: 358.67px; /* Fill width as specified */
-  height: 500px; /* Hug height */
-  background-color: #ffffff; /* Background color */
-  box-shadow: 0px 4px 30px 0px #0000000d; /* Shadow as specified */
+  width: 358.67px;
+  height: 500px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 30px 0px #0000000d;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px; /* Gap for spacing within the card */
+  gap: 20px;
 }
 
 .section4-image {
-  width: 358.67px; /* Width as specified */
-  height: 240px; /* Height as specified */
+  width: 358.67px;
+  height: 240px;
   object-fit: cover;
 }
 
 .section4-card-headline {
-  width: 318.67px; /* Width as specified */
-  height: 30px; /* Height as specified */
+  width: 318.67px;
+  height: 30px;
   font-family: "Text xl/Semibold", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -498,8 +489,8 @@ body {
 }
 
 .section4-card-subheadline {
-  width: 318.67px; /* Width as specified */
-  height: 72px; /* Height as specified */
+  width: 318.67px;
+  height: 72px;
   font-family: "Text md/Regular", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -508,16 +499,16 @@ body {
 }
 
 .section4-card-button {
-  display: flex; /* Make button content flex */
-  align-items: start; /* Center items vertically */
-  justify-content: space-between; /* Space items out */
-  width: 113px; /* Width as specified */
-  height: 24px; /* Height as specified */
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 113px;
+  height: 24px;
   font-family: "Text md/Semibold", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: #3cab90; /* Text color */
+  color: #3cab90;
   background: none;
   border: none;
   cursor: pointer;
@@ -525,13 +516,13 @@ body {
 }
 
 .arrow-right {
-  color: #3cab90; /* Arrow color */
+  color: #3cab90;
 }
 
 /**************************************************************** section 5 ***************************************************/
 .section5 {
-  height: 505px; /* Height as specified */
-  background-image: url("images/background2.png"); /* Background image */
+  height: 505px;
+  background-image: url("images/background2.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -540,14 +531,14 @@ body {
 }
 
 .section5-content {
-  width: 858px; /* Width as specified */
+  width: 858px;
   max-width: 100%;
   height: auto;
   padding: 44px;
-  border-radius: 12px; /* Radius as specified */
-  background-color: rgba(0, 0, 0, 0.57); /* Color as specified */
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.57);
   text-align: center;
-  color: #ffffff; /* Text color */
+  color: #ffffff;
 }
 
 .section5-headline {
@@ -555,29 +546,29 @@ body {
   font-size: 42px;
   line-height: 50.83px;
   letter-spacing: -2%;
-  width: 770px; /* Width as specified */
-  height: 51px; /* Height as specified */
-  margin: 0 auto 20px; /* Adjust margin as needed */
+  width: 770px;
+  height: 51px;
+  margin: 0 auto 20px;
 }
 
 .section5-subheadline {
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
-  width: 770px; /* Width as specified */
-  height: 140px; /* Height as specified */
-  margin: 0 auto; /* Center the text */
+  width: 770px;
+  height: 140px;
+  margin: 0 auto;
 }
 /***************************************************** section6 ******************************************************************/
 
 .section6 {
-  height: 1100px; /* Height as specified */
-  background-color: #ffbb1c0d; /* Background color with opacity */
+  height: 1100px;
+  background-color: #ffbb1c0d;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 80px 150px; /* Padding as specified */
-  gap: 32px; /* Gap between columns */
+  padding: 80px 150px;
+  gap: 32px;
 }
 
 .section6-content {
@@ -585,11 +576,11 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  max-width: 1440px; /* Maximum width of the content */
+  max-width: 1440px;
 }
 
 .section6-column {
-  width: calc((100% - 64px) / 3); /* Adjusted width for each column */
+  width: calc((100% - 64px) / 3);
 }
 
 .section6-card {
@@ -669,19 +660,19 @@ body {
 }
 
 .section6-card-button:hover {
-  opacity: 0.8; /* Adjusted opacity on hover */
+  opacity: 0.8;
 }
 /****************************************************** section7 *****************************************************************/
 
 .section7 {
-  height: auto; /* Auto height to hug content */
-  padding: 80px 150px; /* Padding as needed */
-  background-color: #fff; /* Background color if needed */
+  height: auto;
+  padding: 80px 150px;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 32px;
-  margin-top: 50px; /* Gap between elements */
+  margin-top: 50px;
 }
 
 .section7-headline {
@@ -707,18 +698,18 @@ body {
 
 .section7-columns {
   display: flex;
-  width: 1140px; /* Fixed width */
-  height: auto; /* Auto height to hug content */
-  gap: 32px; /* Gap between columns */
+  width: 1140px;
+  height: auto;
+  gap: 32px;
 }
 
 .section7-card {
-  width: calc((100% - 64px) / 3); /* Adjust width for each column */
-  height: 420px; /* Fixed height */
+  width: calc((100% - 64px) / 3);
+  height: 420px;
   background-color: #3cab900d;
   border-radius: 12px;
   padding: 32px;
-  gap: 20px; /* Gap between elements inside the card */
+  gap: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -731,8 +722,8 @@ body {
 }
 
 .section7-card-title {
-  width: 147px; /* Width as specified */
-  height: 30px; /* Height as specified */
+  width: 147px;
+  height: 30px;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -750,24 +741,24 @@ body {
 /*************************************************** section8 *********************************************************************/
 .section8 {
   display: flex;
-  height: auto; /* Auto height to hug content */
-  padding: 80px 150px; /* Padding as needed */
-  gap: 32px; /* Gap between left and right columns */
+  height: auto;
+  padding: 80px 150px;
+  gap: 32px;
 }
 
 .section8-left {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 400px; /* Fixed width */
-  height: auto; /* Auto height to hug content */
-  gap: 28px; /* Gap between elements */
+  width: 400px;
+  height: auto;
+  gap: 28px;
 }
 
 .section8-icon {
   width: 58.33px;
   height: 48px;
-  color: #3cab90; /* Icon color */
+  color: #3cab90;
 }
 
 .section8-title {
@@ -792,12 +783,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 708px; /* Fill remaining space */
-  height: auto; /* Auto height to hug content */
+  width: 708px;
+  height: auto;
   background-color: #3cab900f;
   border-radius: 24px;
   padding: 40px;
-  gap: 87px; /* Gap between elements */
+  gap: 87px;
 }
 
 .section8-testimonial-header {
@@ -816,7 +807,7 @@ body {
 
 .section8-dots {
   display: flex;
-  gap: 8px; /* Gap between dots */
+  gap: 8px;
 }
 
 .section8-dot {
@@ -843,15 +834,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Fill remaining space */
-  height: auto; /* Auto height to hug content */
+  width: 100%;
+  height: auto;
 }
 
 .section8-profile {
   display: flex;
   align-items: center;
-  width: 302px; /* Fixed width */
-  height: 60px; /* Fixed height */
+  width: 302px;
+  height: 60px;
 }
 
 .section8-profile-image {
@@ -863,7 +854,7 @@ body {
 .section8-profile-info {
   display: flex;
   flex-direction: column;
-  margin-left: 16px; /* Gap between image and text */
+  margin-left: 16px;
 }
 
 .section8-profile-name {
@@ -886,7 +877,7 @@ body {
 
 .section8-buttons {
   display: flex;
-  gap: 16px; /* Gap between buttons */
+  gap: 16px;
 }
 
 .section8-button {
@@ -1042,7 +1033,7 @@ body {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
-  opacity: 1; /* Changed opacity to 1 */
+  opacity: 1;
 }
 
 .footer-terms {
